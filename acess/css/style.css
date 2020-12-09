@@ -17,8 +17,8 @@ body{
 .registration{
   margin: 0 auto;
   margin-top: 170px;
-  min-width: 400px;
-  max-width: 500px;
+  min-width: 300px;
+  max-width: 400px;
   width: 100%;
   
   padding: 30px;
@@ -30,11 +30,12 @@ body{
 .wrapper{
   display: flex;
   justify-content: space-between;
+  max-width: 100%;
+}
+.wrapper > .user-name{
+ max-width: 48%;
 }
 
-.wrapper > .user-name + .user-name{
-  margin-left: 20px;
-}
 .register-title{
   font-size: 2em;
   color: #656563;
@@ -47,7 +48,7 @@ body{
   content: '';
   position: absolute;
   border: 2px solid grey;
-  width: 140px;
+  width: 30%;
   top:0.5em;
 }
 
