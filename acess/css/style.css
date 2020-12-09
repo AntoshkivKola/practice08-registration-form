@@ -6,15 +6,21 @@
   box-sizing: border-box;
 } 
 
+.body{
+  
+}
+
 .margin-bottom{
   margin-bottom: var(--margin-bottom);
 }
 
 .registration{
+  margin: 0 auto;
+  margin-top: 170px;
   min-width: 400px;
   max-width: 500px;
   width: 100%;
-  margin: 0 auto;
+  
   padding: 30px;
   background-color: #F2F3F7;
 
