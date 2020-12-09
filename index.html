@@ -1,13 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./acess/css/reset.css">
-  <link rel="stylesheet" href="./acess/css/style.css">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./acess/css/reset.css" />
+    <link rel="stylesheet" href="./acess/css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <section class="registration">
+        <h1 class="register-title margin-bottom">Register</h1>
+        <p class="register-text margin-bottom">Create your account. It`s free and only takes a minute.</p>
+        <form action="GET" class="register-form">
+          <div class="wrapper margin-bottom">
+            <input
+              type="text"
+              placeholder="First Name"
+              name="firstName"
+              required
+              class="register-input user-name"
+            />
+            <input
+              type="text"
+              placeholder="Last Name"
+              name="lastName"
+              required
+              class="register-input user-name"
+            />
+          </div>
+          <input type="email" placeholder="Email" name="email" required class="register-input margin-bottom"/>
+          <input
+            type="password"
+            placeholder="Password"
+            name="password"
+            required
+            class="register-input margin-bottom"
+          />
+          <input
+            type="password"
+            placeholder="Confirm Password"
+            name="confirmPassword"
+            required
+            class="register-input margin-bottom"
+          />
+          <label class="policy-block margin-bottom">
+            <input type="checkbox" value="true" name="policy" required />
+            <span>I accept the Terms of Use & Privacy Policy.</span>
+          </label>
+          <button type="submit" class="register-btn">Register Now</button>
+        </form>
+      </section>
+    </main>
+  </body>
 </html>
