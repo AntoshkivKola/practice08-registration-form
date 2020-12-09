@@ -30,6 +30,24 @@
             />
           </div>
           <input type="email" placeholder="Email" name="email" required class="register-input margin-bottom"/>
+          <label class="report-label"> Chouse your plan
+            <select name="user-plan" >
+                <option value="Standart">Standart</option>
+                <option value="Medium">Medium</option>
+                <option value="Premium">Premium</option>
+            </select>
+          </label >
+          <label class="report-label">Chouse your city
+            <datalist id="city-list"> 
+              <option value="Запорожье"></option>
+              <option value="Киев"></option>
+              <option value="Днепр"></option>
+              <option value="Харьков"></option>
+            </datalist>
+            <input type="text" name="city" list="city-list">
+            
+          </label>
+          
           <input
             type="password"
             placeholder="Password"
